@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arise Creatives — Premium Digital Agency</title>
+  <meta name="description" content="Arise Creatives builds world-class landing pages and modern websites for ambitious brands. Strategic design. Premium execution. Measurable results." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor" class="cursor"></div>
+  <div id="cursor-follower" class="cursor-follower"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">AC</span>
+        <span class="logo-text">Arise Creatives</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="theme-icon">◐</span>
+        </button>
+        <a href="#contact" class="btn-nav">Work With Us</a>
+      </div>
+      <button class="nav-burger" id="navBurger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Work With Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">✦ Premium Digital Agency</div>
+      <h1 class="hero-headline reveal-up">
+        We Build Digital<br/>
+        <span class="gradient-text">Experiences That</span><br/>
+        Rise Above the Noise.
+      </h1>
+      <p class="hero-sub reveal-up">
+        Landing pages and websites engineered for ambitious brands.<br/>
+        Strategy-first. Design-led. Results-obsessed.
+      </p>
+      <div class="hero-cta reveal-up">
+        <a href="#contact" class="btn-primary">Work With Us <span class="btn-arrow">→</span></a>
+        <a href="#work" class="btn-ghost">View Projects</a>
+      </div>
+      <div class="hero-stats reveal-up">
+        <div class="stat"><span class="stat-num" data-count="120">0</span><span>+</span><p>Projects</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-count="98">0</span><span>%</span><p>Client Satisfaction</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-count="5">0</span><span>×</span><p>Avg. ROI Boost</p></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Landing Pages</span><span class="dot">✦</span>
+      <span>Brand Strategy</span><span class="dot">✦</span>
+      <span>UI/UX Design</span><span class="dot">✦</span>
+      <span>Web Development</span><span class="dot">✦</span>
+      <span>Conversion Optimization</span><span class="dot">✦</span>
+      <span>Digital Experiences</span><span class="dot">✦</span>
+      <span>Landing Pages</span><span class="dot">✦</span>
+      <span>Brand Strategy</span><span class="dot">✦</span>
+      <span>UI/UX Design</span><span class="dot">✦</span>
+      <span>Web Development</span><span class="dot">✦</span>
+      <span>Conversion Optimization</span><span class="dot">✦</span>
+      <span>Digital Experiences</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <p class="section-label reveal-up">About Us</p>
+          <h2 class="section-title reveal-up">
+            We Don't Just Design.<br/>We <span class="gradient-text">Architect Growth.</span>
+          </h2>
+          <div class="about-cards">
+            <div class="about-card glass-card reveal-up">
+              <div class="card-icon">◈</div>
+              <h3>Vision</h3>
+              <p>To be the agency that makes ambitious brands unmissable — online and beyond.</p>
+            </div>
+            <div class="about-card glass-card reveal-up">
+              <div class="card-icon">◉</div>
+              <h3>Mission</h3>
+              <p>We craft digital experiences with the precision of engineering and the soul of art.</p>
+            </div>
+            <div class="about-card glass-card reveal-up">
+              <div class="card-icon">◊</div>
+              <h3>Philosophy</h3>
+              <p>Everything intentional. No filler. No fluff. Only what moves your audience to act.</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="about-visual">
+            <div class="av-ring av-ring-1"></div>
+            <div class="av-ring av-ring-2"></div>
+            <div class="av-ring av-ring-3"></div>
+            <div class="av-core">
+              <span class="av-label">✦ Arise</span>
+              <span class="av-num">2020</span>
+              <span class="av-sub">Founded</span>
+            </div>
+            <div class="av-badge av-badge-1 glass-card">🏆 Awwwards Hon.</div>
+            <div class="av-badge av-badge-2 glass-card">⚡ 48h Delivery</div>
+            <div class="av-badge av-badge-3 glass-card">🌍 Global Clients</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <p class="section-label reveal-up">What We Do</p>
+      <h2 class="section-title reveal-up">Services Built for <span class="gradient-text">High Performance</span></h2>
+      <div class="services-grid">
+        <div class="service-card reveal-up" data-num="01">
+          <div class="service-icon">⬡</div>
+          <h3>Premium Landing Pages</h3>
+          <p>Conversion-engineered pages that capture attention, communicate value, and compel action. Every pixel, purposeful.</p>
+          <ul class="service-list">
+            <li>A/B Tested Layouts</li>
+            <li>Conversion Copywriting</li>
+            <li>Mobile-first Build</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+        <div class="service-card reveal-up" data-num="02">
+          <div class="service-icon">⬢</div>
+          <h3>High-Converting Websites</h3>
+          <p>Full brand websites that don't just look stunning — they generate leads, build trust, and scale with you.</p>
+          <ul class="service-list">
+            <li>Custom CMS Integration</li>
+            <li>Performance Optimized</li>
+            <li>SEO Architecture</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+        <div class="service-card reveal-up" data-num="03">
+          <div class="service-icon">◈</div>
+          <h3>Brand Positioning & Strategy</h3>
+          <p>We audit, sharpen, and position your brand so it speaks to exactly the right people in exactly the right way.</p>
+          <ul class="service-list">
+            <li>Competitive Analysis</li>
+            <li>Messaging Frameworks</li>
+            <li>Visual Identity</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+        <div class="service-card reveal-up" data-num="04">
+          <div class="service-icon">◉</div>
+          <h3>UI/UX Design</h3>
+          <p>User-centered design systems that feel intuitive, look world-class, and delight the people that matter most.</p>
+          <ul class="service-list">
+            <li>Wireframing & Prototyping</li>
+            <li>Design Systems</li>
+            <li>User Research</li>
+          </ul>
+          <a href="#contact" class="service-link">Get Started →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected Work -->
+  <section id="work" class="section work-section">
+    <div class="container">
+      <p class="section-label reveal-up">Selected Work</p>
+      <h2 class="section-title reveal-up">Projects That <span class="gradient-text">Define the Standard</span></h2>
+      <div class="work-grid">
+        <div class="work-card reveal-up" id="wc1">
+          <div class="work-img" style="background: linear-gradient(135deg, #0f0f0f 0%, #1a1a2e 50%, #16213e 100%);">
+            <div class="work-3d-el w3d1"></div>
+            <div class="work-overlay">
+              <span class="work-tag">Landing Page</span>
+              <h3>Nexus Capital</h3>
+              <p>FinTech landing page with 340% conversion lift</p>
+              <a href="#" class="work-cta">View Case Study →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <span>FinTech / SaaS</span>
+            <span>2025</span>
+          </div>
+        </div>
+        <div class="work-card reveal-up" id="wc2">
+          <div class="work-img" style="background: linear-gradient(135deg, #0d0d0d 0%, #1c1c1c 40%, #2d1b69 100%);">
+            <div class="work-3d-el w3d2"></div>
+            <div class="work-overlay">
+              <span class="work-tag">Full Website</span>
+              <h3>Lumina Studio</h3>
+              <p>Luxury architecture firm — award-winning design</p>
+              <a href="#" class="work-cta">View Case Study →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <span>Architecture / Luxury</span>
+            <span>2025</span>
+          </div>
+        </div>
+        <div class="work-card reveal-up" id="wc3">
+          <div class="work-img" style="background: linear-gradient(135deg, #0a0a0a 0%, #0d2137 50%, #0a3d62 100%);">
+            <div class="work-3d-el w3d3"></div>
+            <div class="work-overlay">
+              <span class="work-tag">Brand + Web</span>
+              <h3>Vault AI</h3>
+              <p>Full brand identity + SaaS website launch</p>
+              <a href="#" class="work-cta">View Case Study →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <span>AI / SaaS</span>
+            <span>2024</span>
+          </div>
+        </div>
+        <div class="work-card reveal-up" id="wc4">
+          <div class="work-img" style="background: linear-gradient(135deg, #111 0%, #1a0a2e 50%, #2d0a4e 100%);">
+            <div class="work-3d-el w3d4"></div>
+            <div class="work-overlay">
+              <span class="work-tag">UI/UX</span>
+              <h3>Drift Commerce</h3>
+              <p>eCommerce redesign — 2.8× revenue uplift</p>
+              <a href="#" class="work-cta">View Case Study →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <span>eCommerce</span>
+            <span>2024</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section id="process" class="section process-section">
+    <div class="container">
+      <p class="section-label reveal-up">How We Work</p>
+      <h2 class="section-title reveal-up">A Process Built for <span class="gradient-text">Precision</span></h2>
+      <div class="process-steps">
+        <div class="process-step reveal-up">
+          <div class="step-num">01</div>
+          <div class="step-line"></div>
+          <div class="step-body glass-card">
+            <div class="step-icon">🔍</div>
+            <h3>Discover & Strategize</h3>
+            <p>Deep-dive into your brand, audience, and goals. We map the terrain before we move a pixel.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-num">02</div>
+          <div class="step-line"></div>
+          <div class="step-body glass-card">
+            <div class="step-icon">⚡</div>
+            <h3>Design & Prototype</h3>
+            <p>High-fidelity prototypes that show you exactly what you're getting — before we write a line of code.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-num">03</div>
+          <div class="step-line"></div>
+          <div class="step-body glass-card">
+            <div class="step-icon">🚀</div>
+            <h3>Build & Animate</h3>
+            <p>We code everything from scratch — fast, accessible, animated, and obsessively quality-controlled.</p>
+          </div>
+        </div>
+        <div class="process-step reveal-up">
+          <div class="step-num">04</div>
+          <div class="step-line last"></div>
+          <div class="step-body glass-card">
+            <div class="step-icon">📈</div>
+            <h3>Launch & Optimize</h3>
+            <p>We don't just ship and disappear. We monitor, iterate, and optimize until your numbers rise.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <p class="section-label reveal-up">Testimonials</p>
+      <h2 class="section-title reveal-up">Words From <span class="gradient-text">Those Who Arose</span></h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card glass-card reveal-up">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"Arise Creatives didn't just build us a website — they built us a growth engine. Our leads tripled in 60 days. The design is genuinely world-class."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#6c63ff,#3ecfff)">JM</div>
+            <div>
+              <strong>James Morrison</strong>
+              <span>CEO, Nexus Capital</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-card reveal-up featured-testi">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"I've worked with agencies in NYC and London. Arise Creatives is on another level. The attention to detail, the animations, the strategy — flawless."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#f093fb,#f5576c)">SL</div>
+            <div>
+              <strong>Sofia Laurent</strong>
+              <span>Founder, Lumina Studio</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card glass-card reveal-up">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-quote">"From strategy to design to code — they handled everything. The result was a site that made investors take us seriously. Money well spent."</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#43e97b,#38f9d7)">AR</div>
+            <div>
+              <strong>Aiden Ross</strong>
+              <span>CTO, Vault AI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="section cta-section">
+    <div class="cta-bg-glow"></div>
+    <div class="container">
+      <div class="cta-inner reveal-up">
+        <p class="section-label">Ready to Rise?</p>
+        <h2 class="cta-headline">Your Brand Deserves<br/><span class="gradient-text">World-Class Design.</span></h2>
+        <p class="cta-sub">Let's create something extraordinary together. Every great brand has an origin story — let's write yours.</p>
+        <div class="cta-buttons">
+          <a href="mailto:hello@arisecreatives.com" class="btn-primary btn-lg">Start Your Project <span class="btn-arrow">→</span></a>
+          <a href="tel:+10000000000" class="btn-ghost btn-lg">Schedule a Call</a>
+        </div>
+        <p class="cta-footnote">✦ Average response time: under 2 hours</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-mark">AC</span>
+            <span class="logo-text">Arise Creatives</span>
+          </a>
+          <p>Building digital experiences that rise above the noise for ambitious brands worldwide.</p>
+        </div>
+        <div class="footer-links-grid">
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="#services">Landing Pages</a>
+            <a href="#services">Websites</a>
+            <a href="#services">Brand Strategy</a>
+            <a href="#services">UI/UX Design</a>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#about">About</a>
+            <a href="#process">Process</a>
+            <a href="#work">Work</a>
+            <a href="#testimonials">Testimonials</a>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <a href="https://twitter.com" target="_blank">Twitter / X</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://dribbble.com" target="_blank">Dribbble</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Arise Creatives. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
